@@ -193,7 +193,7 @@ module.exports = {
       },
       out_trade_no: {
         type: 'string',
-        maxLength: 16,
+        maxLength: 32,
         required: true
       },
       nonce_str: {
